@@ -9,7 +9,7 @@ import { Observable } from 'rxjs';
 })
 export class AppComponent {
 
-
+/*
   query: string; //se la variabile da errore andare in tsconfig.json e mettere strict : false
   title = 'first-routed-app';
   obsTrack: Observable<Object>;
@@ -27,4 +27,5 @@ export class AppComponent {
     this.obsTrack = this.spotify.searchTrack(this.query);
     this.obsTrack.subscribe((data) => this.results = data); 
   }
+  */
 }
