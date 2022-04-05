@@ -1,1 +1,6 @@
-<p>album works!</p>
+<div *ngIf="album">
+
+
+    <p>Genere: {{album.album_type}}</p>
+    <p><a href (click)="back()">Back</a></p>
+</div>
